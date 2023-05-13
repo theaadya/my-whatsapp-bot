@@ -1,4 +1,4 @@
-# mybot
+# MyBot
 ## Description
 A project that utilizes OpenAI's GPT-3.5 language model to provide automated responses to incoming messages on WhatsApp. It uses Flask to create a web server that listens for incoming messages, processes them using the OpenAI API, and sends back appropriate responses.
 
@@ -29,8 +29,8 @@ The goal of this project is to create a versatile chatbot that can handle a wide
 
 ## Usage
 1. Start the Flask server: `python app.py`
-2. Set up a public URL using ngrok.
-3. Configure the Twilio webhook (avaialble in Sandbox Settings) to point to your server's public URL (`ngrok_public_URL/webhook`).
+2. Set up a public URL using ngrok, refer here: https://dashboard.ngrok.com/get-started/setup (replace port with 5003)
+3. Configure the Twilio webhook (avaialble in Sandbox Settings) to point to your server's public URL: `ngrok_public_URL/webhook`
 4. Ensure the server is accessible from the internet.
 5. Test the chat assistant by sending messages to your WhatsApp number.
 
